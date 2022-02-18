@@ -368,7 +368,7 @@ body {
 .team-list-item-desk-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--team-color);
@@ -502,7 +502,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-.contacts-footer-link-map:not(:last-child) {
+.contacts-footer-li:not(:last-child) {
   margin-bottom: 9px;
 }
 .contacts-footer-link {
