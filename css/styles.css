@@ -194,7 +194,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1600px;
 }
 .slogan {
   text-transform: uppercase;
@@ -263,12 +262,7 @@ body {
   height: 70px;
   fill: #212121;
 }
-.svg-use:hover {
-  fill: #2196f3;
-}
-.svg-use:focus {
-  fill: #2196f3;
-}
+
 .titlle-desk-list-item {
   font-weight: bold;
   font-size: 14px;
@@ -280,7 +274,7 @@ body {
 .titlle-desk-list-item-text {
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--team-color);
 }
@@ -341,6 +335,9 @@ body {
 }
 .team-list-item {
   background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
