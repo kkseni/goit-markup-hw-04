@@ -510,9 +510,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
-.contacts-footer-link:not(:last-child) {
-  margin-bottom: 9px;
-}
+
 .links {
   display: flex;
   list-style: none;
